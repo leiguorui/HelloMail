@@ -15,12 +15,12 @@ public class SendEmail {
         String to = "degree_lei@163.com";
 
         // Sender's email ID needs to be mentioned
-        String from = "i@renrennet.com";
-        final String username = "degree_lei";//change accordingly
-        final String password = "19900905";//change accordingly
+        String from = "root@renrennet.com";
+        final String username = "root";//change accordingly
+        final String password = "root";//change accordingly
 
         // Assuming you are sending email through relay.jangosmtp.net
-        String host = "163.com";
+        String host = "localhost";
 
         Properties props = new Properties();
         props.put("mail.smtp.auth", "true");
