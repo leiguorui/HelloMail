@@ -8,8 +8,10 @@ import java.util.Properties;
 
 /**
  * Created by leiguorui on 10/13/14.
+ *
+ * 本地使用James搭建邮件服务器，并发送邮件
  */
-public class SendEmail {
+public class SendEmailFromLocalhost {
     public static void main(String[] args) {
         // Recipient's email ID needs to be mentioned.
         String to = "degree_lei@163.com";

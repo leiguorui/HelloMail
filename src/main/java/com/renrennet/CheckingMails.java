@@ -5,6 +5,8 @@ import java.util.Properties;
 
 /**
  * Created by leiguorui on 10/14/14.
+ *
+ * 使用163 pop服务，接收邮件
  */
 public class CheckingMails {
 
@@ -68,10 +70,10 @@ public class CheckingMails {
 
     public static void main(String[] args) {
 
-        String host = "pop.gmail.com";// change accordingly
+        String host = "pop.163.com";// change accordingly
         String mailStoreType = "pop3s";
-        String username = "degreelei@gmail.com";// change accordingly
-        String password = "**********";// change accordingly
+        String username = "degree_lei@163.com";// change accordingly
+        String password = "*********";// change accordingly
 
         check(host, mailStoreType, username, password);
 
